@@ -16,7 +16,15 @@ This repository contains a series of Jupyter notebooks and datasets that documen
 
 - `5. Book Recommender`: The final notebook where the recommender system is implemented, tested, and validated.
 
-- `Data/`: A folder containing all the CSV files of datasets used throughout the project.
+- `Raw Data`: This directory contains the initial datasets as they were collected, without any modifications or cleaning. These are the datasets directly extracted from their sources.
+
+- `Clean Data`: Here, you'll find the cleaned datasets ready for analysis, including the 'goodreads_webscrap.csv' file which contains my data scraped from Goodreads.
+
+- `Pickle`: This folder houses the serialized Python objects: the trained K-Means clustering model ('kmeans.pkl'), the scaler ('scaler.pkl'), and the encoder ('encoder.pkl'), which are essential components of the book recommendation system.
+
+- `Presentation`: Contains the final presentation in PDF format, along with a link to Tableau visualizations that offer a graphical representation of the project's insights and outcomes.
+
+---
 
 ## How to Use
 
@@ -29,6 +37,8 @@ To use the recommender system:
 3. Proceed through the notebooks in numerical order, as each notebook builds upon the work done in the previous ones.
 
 4. To get a recommendation, run the final notebook `5. Book Recommender`. You will be prompted to enter a book title and author name. Based on this input, the system will either provide a recommendation from the existing dataset or fetch information online to generate a recommendation.
+   
+5. ⚠️ **NOTE:** Due to size constraints on GitHub, not all CSV files are uploaded. To utilize the book recommender, download 'final_df.csv' and 'goodreads_df_cleaned.csv' from the Clean Data folder, as well as 'kmeans.pkl', 'scaler.pkl', and 'encoder.pkl' from the Pickle folder. Run the "5. Book Recommender" notebook in the same directory for immediate use without the need for prior execution of other notebooks.
 
 ## Documentation
 
