@@ -22,7 +22,7 @@ This repository contains a series of Jupyter notebooks and datasets that documen
 
 - `Pickle`: This folder houses the serialized Python objects: the trained K-Means clustering model ('kmeans.pkl'), the scaler ('scaler.pkl'), and the encoder ('encoder.pkl'), which are essential components of the book recommendation system.
 
-- `Presentation`: Contains the final presentation in PDF format, along with a link in the "Link Tableau Dashboard" file to Tableau visualizations that offer a graphical representation of the project's insights and outcomes.
+- `Presentation`: Contains the final presentation in PDF format, along with a link in the "Link Tableau Dashboard" file to Tableau visualizations that offer a graphical representation of some project's insights and outcomes.
 
 ---
 
